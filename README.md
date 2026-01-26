@@ -87,7 +87,7 @@ Executa ferramentas de reparo do Windows:
 
 Clone o repositório:
 ````
-git clone https://github.com/gregorygustavo80/WinMaintenanceSuite.git`
+git clone https://github.com/gregorygustavo80/WinMaintenanceSuite.git
 ````
 ````
 cd WinMaintenanceSuite
