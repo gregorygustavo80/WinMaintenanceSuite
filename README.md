@@ -1,7 +1,6 @@
 # Windows Maintenance Suite 🛠️
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-Em%20desenvolvimento-orange)
-
 ![Language](https://img.shields.io/badge/language-Python-blue)
 
 
