@@ -1,4 +1,9 @@
 # Windows Maintenance Suite 🛠️
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-Em%20desenvolvimento-orange)
+
+![Language](https://img.shields.io/badge/language-Python-blue)
+
 
 Conjunto de scripts em **Python** para automatizar a manutenção de sistemas **Windows**, incluindo desfragmentação/otimização de disco, atualizações, reparos do sistema, redefinição de rede e verificação de segurança.
 
@@ -99,3 +104,5 @@ python main.py
 
 Este projeto está licenciado sob a licença MIT.  
 Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+![Status](https://img.shields.io/badge/status-Em%20desenvolvimento-orange)
