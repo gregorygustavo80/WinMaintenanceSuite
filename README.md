@@ -94,3 +94,8 @@ Execute o script principal:
 python main.py
 ````
 ⚠️ O sistema será reiniciado automaticamente ao final do processo.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT.  
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
