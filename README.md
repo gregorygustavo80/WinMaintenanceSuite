@@ -104,4 +104,3 @@ python main.py
 Este projeto está licenciado sob a licença MIT.  
 Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-![Status](https://img.shields.io/badge/status-Em%20desenvolvimento-orange)
