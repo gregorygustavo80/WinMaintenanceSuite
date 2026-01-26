@@ -83,9 +83,11 @@ Executa ferramentas de reparo do Windows:
 
 Clone o repositório:
 ````
-git clone https://github.com/seu-usuario/winMaintenance.git`
+git clone https://github.com/gregorygustavo80'/WinMaintenanceSuite
+.git`
 
-cd winMaintenance
+cd WinMaintenanceSuite
+
 ````
 Execute o script principal:
 ````
