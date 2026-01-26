@@ -83,12 +83,12 @@ Executa ferramentas de reparo do Windows:
 
 Clone o repositório:
 ````
-git clone https://github.com/gregorygustavo80'/WinMaintenanceSuite
-.git`
-
-cd WinMaintenanceSuite
-
+git clone https://github.com/gregorygustavo80/WinMaintenanceSuite.git`
 ````
+````
+cd WinMaintenanceSuite
+````
+
 Execute o script principal:
 ````
 python main.py

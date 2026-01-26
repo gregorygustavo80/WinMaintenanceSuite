@@ -1,6 +1,4 @@
-import os
 import subprocess
-import time
 
 def ip():
     subprocess.run(["netsh", "int", "ip", "reset"], shell=True)
@@ -22,11 +20,6 @@ def release():
 
 def renew():
     subprocess.run(["ipconfig", "/renew"], shell=True)
-
-def restart_computer():
-    print("O computador será reiniciado para concluir as alterações...")
-    time.sleep(10)
-    os.system("shutdown /r /t 0")
 
 def main():
 
