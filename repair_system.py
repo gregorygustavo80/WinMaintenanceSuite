@@ -1,7 +1,12 @@
 import subprocess
 
+import subprocess
+
 def run_chkdsk():
-    subprocess.run(["echo S | chkdsk C: /f /r"], shell=True)
+    subprocess.run(
+        "echo S | chkdsk C: /f /r",
+        shell=True
+    )
 
 def run_dism():
     print("Verificando e reparando a imagem do Windows...")
