@@ -29,8 +29,9 @@ O script principal (`main.py`) executa todos os módulos em sequência com privi
 ├── security.py
 ├── repair_system.py
 └── README.md
-
 ````
+## Fluxograma do Projeto
+![Fluxograma do projeto](images/fluxograma.png)
 ## 📄 Descrição dos arquivos
 
 ### main.py
