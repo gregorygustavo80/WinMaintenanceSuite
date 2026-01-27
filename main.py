@@ -27,11 +27,6 @@ def relaunch_as_admin():
     )
     sys.exit(0)
 
-def restart_computer():
-    print("O computador será reiniciado em 10 segundos...")
-    time.sleep(10)
-    os.system("shutdown /r /t 0")
-
 if __name__ == "__main__":
 
     if not sys.platform.startswith("win"):
@@ -43,13 +38,9 @@ if __name__ == "__main__":
 
     print("\n=== INICIANDO MANUTENÇÃO DO SISTEMA ===\n")
 
-    defragmentation.main()
-    update.main()
-    tcp_ip_reset.main()
+    #defragmentation.main()
+    #update.main()
+    #tcp_ip_reset.main()
+    #repair_system.main()
     security.main()
-    repair_system.main()
-
-    print("\n=== MANUTENÇÃO FINALIZADA ===\n")
-    time.sleep(10)
-
-    restart_computer() 
+   
