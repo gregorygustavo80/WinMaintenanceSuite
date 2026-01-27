@@ -1,5 +1,3 @@
-import time
-import os
 import sys
 import ctypes
 import defragmentation
@@ -38,9 +36,9 @@ if __name__ == "__main__":
 
     print("\n=== INICIANDO MANUTENÇÃO DO SISTEMA ===\n")
 
-    #defragmentation.main()
-    #update.main()
-    #tcp_ip_reset.main()
-    #repair_system.main()
+    defragmentation.main()
+    update.main()
+    tcp_ip_reset.main()
+    repair_system.main()
     security.main()
    

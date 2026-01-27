@@ -3,7 +3,6 @@ import threading
 import itertools
 import time
 import sys
-import ctypes
 
 def update_data():
     subprocess.run(
@@ -45,8 +44,8 @@ def offline_scan():
     )
 
 def main():
-       #update_data()
-       #quickscan()
+       update_data()
+       quickscan()
        mrt()
        print("\n=== MANUTENÇÃO FINALIZADA ===\n")
        time.sleep(5)

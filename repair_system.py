@@ -1,7 +1,5 @@
 import subprocess
 
-import subprocess
-
 def run_chkdsk():
     subprocess.run(
         "echo S | chkdsk C: /f /r",

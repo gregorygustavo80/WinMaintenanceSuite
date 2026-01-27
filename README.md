@@ -31,7 +31,7 @@ O script principal (`main.py`) executa todos os módulos em sequência com privi
 └── README.md
 ````
 ## Fluxograma do Projeto
-![Fluxograma do projeto](images/fluxograma.png)
+![Fluxograma do projeto](images/fluxogram.png)
 ## 📄 Descrição dos arquivos
 
 ### main.py
@@ -41,7 +41,6 @@ Orquestrador principal do sistema.
 - Solicita privilégios de administrador  
 - Executa todos os módulos de manutenção  
 - Reinicia o computador ao final do processo  
-
 ---
 
 ### desfragmentation.py
@@ -51,14 +50,13 @@ Orquestrador principal do sistema.
   - **SSD** → Optimize / TRIM
   - **HDD** → Desfragmentação completa + otimização de boot
 - Gera logs em `C:\Logs`
-
 ---
 
 ### update.py
 - Atualiza todos os pacotes instalados via **winget**
+- Executa o **windows update**
 
 ---
-
 ### tcp_ip_reset.py
 Restaura configurações de rede:
 
@@ -66,14 +64,14 @@ Restaura configurações de rede:
 - Winsock  
 - DNS  
 - IP release / renew  
-
 ---
 
 ### security.py
 
 - Atualiza assinaturas do **Windows Defender**
 - Executa verificação rápida (**Quick Scan**)
-
+- Executa o Microsoft Malicious Software Removal Tool (**MRT**)
+- Executa o **windows defender offline**.
 ---
 
 ### repair_system.py
