@@ -37,21 +37,14 @@ def spinner(stop_event):
         time.sleep(0.2)
     sys.stdout.write("\rExecutando MRT... concluído ✔\n")
 
-def offline_scan():
-    subprocess.run(
-        ["powershell", "-NoProfile", "-Command", "Start-MpWDOScan"],
-        check=True
-    )
 
 def main():
        update_data()
        quickscan()
        mrt()
-       print("\n=== MANUTENÇÃO FINALIZADA ===\n")
        time.sleep(5)
        print("O computador será reiniciado em 10 segundos...")
        time.sleep(10)
-       offline_scan()
         
 if __name__ == "__main__":
     main()
