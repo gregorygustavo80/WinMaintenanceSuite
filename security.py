@@ -42,9 +42,6 @@ def main():
        update_data()
        quickscan()
        mrt()
-       time.sleep(5)
-       print("O computador será reiniciado em 10 segundos...")
-       time.sleep(10)
-        
+              
 if __name__ == "__main__":
     main()

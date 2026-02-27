@@ -7,6 +7,7 @@ import tcp_ip_reset
 import security
 import repair_system
 import subprocess
+import time
 
 ES_CONTINUOUS = 0x80000000
 ES_SYSTEM_REQUIRED = 0x00000001
@@ -61,12 +62,15 @@ def main():
     atexit.register(prevent_sleep_disable)
 
     try:
-        update.main()
-        security.main()
         repair_system.main()
-        tcp_ip_reset.main()
+        update.main()
         defragmentation.main()
+        security.main()
+        tcp_ip_reset.main()
         print("\n=== MANUTENÇÃO FINALIZADA ===\n")
+        time.sleep(5)
+        print("O computador será reiniciado em 10 segundos...")
+        time.sleep(10)
         offline_scan()
 
     finally:
@@ -74,3 +78,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
